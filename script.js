@@ -46,6 +46,8 @@ function playRound(playerSelection, computerSelection) {
     else if (playerSelection.toLowerCase() == computerSelection.toLowerCase()) {
         return "It's a Draw.";
     }
+    else {
+        return "Wrong Choice";
 }
 
 game();
